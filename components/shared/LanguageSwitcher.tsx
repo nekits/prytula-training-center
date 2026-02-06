@@ -1,17 +1,26 @@
 'use client';
 
 import { useRouter, usePathname } from 'next/navigation';
+import { useLocale } from 'next-intl';
 
 export default function LanguageSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
+  const locale = useLocale();
 
-  const currentLocale = pathname.split('/')[1] === 'en' ? 'en' : 'uk';
-  const targetLocale = currentLocale === 'uk' ? 'en' : 'uk';
+  const targetLocale = locale === 'uk' ? 'en' : 'uk';
 
   const switchLocale = () => {
-    const newPathname = pathname.replace(/^\/(uk|en)/, `/${targetLocale}`);
-    router.push(newPathname);
+    // Strip existing locale prefix if present (handles /en, /en/about, /uk, /uk/about)
+    const pathWithoutLocale = pathname.replace(/^\/(uk|en)(\/|$)/, '/');
+
+    // Default locale (uk) needs no prefix due to localePrefix: 'as-needed'
+    const newPath =
+      targetLocale === 'uk'
+        ? pathWithoutLocale
+        : `/${targetLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
+
+    router.push(newPath);
   };
 
   return (
