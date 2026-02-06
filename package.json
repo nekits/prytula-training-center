@@ -1,0 +1,44 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "**Status:** 🚧 In Development",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekits/prytula-training-center.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nekits/prytula-training-center/issues"
+  },
+  "homepage": "https://github.com/nekits/prytula-training-center#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.33.0",
+    "next": "^16.1.6",
+    "next-intl": "^4.8.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.24",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
+  }
+}

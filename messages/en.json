@@ -1,0 +1,15 @@
+{
+  "header": {
+    "logo": "Prytula Foundation Training Center",
+    "nav": {
+      "about": "About",
+      "courses": "Courses",
+      "partnerships": "Partnerships"
+    },
+    "cta": "Register"
+  },
+  "footer": {
+    "copyright": "© 2026 Prytula Foundation. All rights reserved.",
+    "contact": "Contacts"
+  }
+}
