@@ -1,31 +1,31 @@
 {
   "numbers": [
     {
-      "id": "crews",
+      "id": "pilots",
       "track": "uav",
       "value": "77+",
       "numericValue": 77,
       "suffix": "+",
-      "label_uk": "Підготовлених членів екіпажів",
-      "label_en": "Trained crew members"
+      "label_uk": "Навчених пілотів",
+      "label_en": "Trained pilots"
     },
     {
-      "id": "kill-rate",
+      "id": "units",
       "track": "uav",
-      "value": "83%",
-      "numericValue": 83,
-      "suffix": "%",
-      "label_uk": "Коефіцієнт збиття ворожих БпЛА",
-      "label_en": "Enemy UAV kill rate"
+      "value": "25+",
+      "numericValue": 25,
+      "suffix": "+",
+      "label_uk": "Підрозділів пройшли навчання",
+      "label_en": "Units completed training"
     },
     {
-      "id": "efficiency",
+      "id": "kills",
       "track": "uav",
-      "value": "52x",
-      "numericValue": 52,
-      "suffix": "x",
-      "label_uk": "Ефективність: 1 грн знищує 52 грн ворога",
-      "label_en": "Efficiency: 1 UAH destroys 52 UAH of enemy assets"
+      "value": "757",
+      "numericValue": 757,
+      "suffix": "",
+      "label_uk": "Збиттів у наших пілотів",
+      "label_en": "Kills by our pilots"
     },
     {
       "id": "participants",

@@ -5,7 +5,6 @@ import About from '@/components/sections/About';
 import TrackHeader from '@/components/sections/TrackHeader';
 import Courses from '@/components/sections/Courses';
 import Registration from '@/components/sections/Registration';
-import Donate from '@/components/sections/Donate';
 import Partnerships from '@/components/sections/Partnerships';
 import SmoothScroll from '@/components/SmoothScroll';
 
@@ -27,7 +26,6 @@ export default function HomePage() {
         <Courses track="tactical-medicine" />
 
         <Registration />
-        <Donate />
         <Partnerships />
       </main>
       <Footer />

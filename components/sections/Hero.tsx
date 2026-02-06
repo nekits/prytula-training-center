@@ -28,26 +28,6 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-6xl mx-auto pt-24 pb-20">
-        {/* Logo */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-10 flex justify-center"
-        >
-          <div className="relative">
-            <div className="absolute inset-0 bg-primary/15 blur-3xl rounded-full scale-150" />
-            <Image
-              src="/branding/logo/nc-logo.png"
-              alt="Training Center Logo"
-              width={220}
-              height={220}
-              className="relative drop-shadow-2xl"
-              priority
-            />
-          </div>
-        </motion.div>
-
         {/* Title */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
@@ -104,7 +84,7 @@ export default function Hero() {
           className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm text-neutral-300"
         >
           <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+            <div className="w-2 h-2 rounded-full bg-green-500" />
             <span>{t('trust_1')}</span>
           </div>
           <div className="flex items-center gap-2">

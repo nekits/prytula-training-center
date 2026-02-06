@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Zap, BarChart3, Award, Mail } from 'lucide-react';
+import { Zap, BarChart3, Award, Mail, Heart } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const benefits = [
@@ -12,6 +12,7 @@ const benefits = [
 
 export default function Partnerships() {
   const t = useTranslations('partnerships');
+  const tDonate = useTranslations('donate');
 
   return (
     <section id="partnerships" className="py-24 md:py-32 bg-neutral-50">
@@ -49,23 +50,47 @@ export default function Partnerships() {
           ))}
         </div>
 
-        {/* Contact card */}
-        <ScrollReveal delay={0.3}>
-          <div className="bg-white rounded-2xl border border-neutral-100 p-8 md:p-10 max-w-xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-neutral-900 text-white mb-6">
-              <Mail className="w-5 h-5" />
+        {/* Contact + Donate cards */}
+        <div className="grid md:grid-cols-2 gap-6">
+          <ScrollReveal delay={0.3}>
+            <div className="bg-white rounded-2xl border border-neutral-100 p-8 md:p-10 text-center h-full">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-neutral-900 text-white mb-6">
+                <Mail className="w-5 h-5" />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-900 mb-2">
+                {t('contact.title')}
+              </h3>
+              <a
+                href="mailto:training@prytulafoundation.org"
+                className="text-primary hover:text-primary-700 text-lg font-medium transition-colors"
+              >
+                training@prytulafoundation.org
+              </a>
             </div>
-            <h3 className="text-xl font-bold text-neutral-900 mb-2">
-              {t('contact.title')}
-            </h3>
-            <a
-              href="mailto:training@prytulafoundation.org"
-              className="text-primary hover:text-primary-700 text-lg font-medium transition-colors"
-            >
-              training@prytulafoundation.org
-            </a>
-          </div>
-        </ScrollReveal>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.4}>
+            <div className="bg-white rounded-2xl border border-neutral-100 p-8 md:p-10 text-center h-full">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-red-50 text-red-500 mb-6">
+                <Heart className="w-5 h-5" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-bold text-neutral-900 mb-2">
+                {tDonate('title')}
+              </h3>
+              <p className="text-neutral-600 text-sm leading-relaxed mb-6">
+                {tDonate('description')}
+              </p>
+              <a
+                href="https://prytulafoundation.org/donate"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white rounded-full text-sm font-semibold hover:bg-neutral-800 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+              >
+                {tDonate('cta')}
+              </a>
+            </div>
+          </ScrollReveal>
+        </div>
       </div>
     </section>
   );

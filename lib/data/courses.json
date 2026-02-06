@@ -6,25 +6,35 @@
       "image": "/photos/vb140-flight.jpg",
       "title_uk": "VB140 \"Блискавка\"",
       "title_en": "VB140 \"Bliskavka\"",
-      "description_uk": "Сучасний БпАК українського виробництва для знищення ворожих розвідувальних та ударних літаків. Перехоплювач повітряних цілей літакового типу.",
-      "description_en": "Modern Ukrainian-made UAV for destroying enemy reconnaissance and strike aircraft. Fixed-wing aerial target interceptor.",
-      "duration_uk": "10 днів",
-      "duration_en": "10 days",
-      "level_uk": "Середній / Експертний",
-      "level_en": "Intermediate / Expert"
+      "tags_uk": ["Літакового типу", "Тривалість: 10 днів", "Перехоплення розвідувальних БпЛА", "\"Антішахед\""],
+      "tags_en": ["Fixed-wing", "Duration: 10 days", "Reconnaissance UAV interception", "\"Anti-Shahed\""]
     },
     {
-      "id": "tekhnotaras",
+      "id": "taras-p",
       "track": "uav",
       "image": "/photos/technotaras.png",
-      "title_uk": "\"Технотарас\" (Taras-P)",
-      "title_en": "\"Tekhnotaras\" (Taras-P)",
-      "description_uk": "Засіб повітряного ураження з доведеною бойовою ефективністю. Коефіцієнт збиття 83%. Контрольоване та повторюване застосування найефективніших тактик.",
-      "description_en": "Aerial strike system with proven combat effectiveness. 83% kill rate. Controlled and repeatable application of the most effective tactics.",
-      "duration_uk": "10 днів",
-      "duration_en": "10 days",
-      "level_uk": "Середній / Експертний",
-      "level_en": "Intermediate / Expert"
+      "title_uk": "Taras-P",
+      "title_en": "Taras-P",
+      "tags_uk": ["Літакового типу", "Тривалість: 10 днів", "83% коефіцієнт збиття", "Перехоплення розвідувальних БпЛА"],
+      "tags_en": ["Fixed-wing", "Duration: 10 days", "83% kill rate", "Reconnaissance UAV interception"]
+    },
+    {
+      "id": "taras-plus",
+      "track": "uav",
+      "image": "/photos/technotaras.png",
+      "title_uk": "Taras+",
+      "title_en": "Taras+",
+      "tags_uk": ["Літакового типу", "Тривалість: 15 днів", "Перехоплення розвідувальних БпЛА", "\"Антішахед\""],
+      "tags_en": ["Fixed-wing", "Duration: 15 days", "Reconnaissance UAV interception", "\"Anti-Shahed\""]
+    },
+    {
+      "id": "sting",
+      "track": "uav",
+      "image": "/photos/sting-drone.jpg",
+      "title_uk": "\"Sting\"",
+      "title_en": "\"Sting\"",
+      "tags_uk": ["Роторного типу", "Тривалість: 5 днів", "Наймасовіший засіб перехоплення", "Перехоплення розвідувальних БпЛА", "\"Антішахед\""],
+      "tags_en": ["Rotary-wing", "Duration: 5 days", "Most widely used interception system", "Reconnaissance UAV interception", "\"Anti-Shahed\""]
     },
     {
       "id": "field-training",
@@ -32,12 +42,8 @@
       "image": "/photos/tactical-medicine-bw.png",
       "title_uk": "Навчання на полігоні",
       "title_en": "Field Training",
-      "description_uk": "Підготовка Стрільців-Санітарів та Бойових Медиків. Курси Stop The Bleed (CLS) та Advanced Shock Management (ASM). Забезпечення розхідними матеріалами та інструментами.",
-      "description_en": "Training of Combat Medics and Shooter-Paramedics. Stop The Bleed (CLS) and Advanced Shock Management (ASM) courses. Providing consumables and tools.",
-      "duration_uk": "1 тиждень",
-      "duration_en": "1 week",
-      "level_uk": "Початковий / Середній",
-      "level_en": "Beginner / Intermediate"
+      "tags_uk": ["Стрільці-Санітари та Бойові Медики", "Stop The Bleed (CLS)", "Advanced Shock Management (ASM)", "1 тиждень"],
+      "tags_en": ["Combat Medics & Shooter-Paramedics", "Stop The Bleed (CLS)", "Advanced Shock Management (ASM)", "1 week"]
     },
     {
       "id": "external-training",
@@ -45,12 +51,8 @@
       "image": "/photos/tactical-medicine-bw.png",
       "title_uk": "Зовнішнє навчання",
       "title_en": "External Training",
-      "description_uk": "Семінари та навчання спільно з NATO, Ukraine Trauma Project та міжнародними партнерами. Курси розвитку інструкторів та спеціалізовані тренінги.",
-      "description_en": "Seminars and training in collaboration with NATO, Ukraine Trauma Project and international partners. Instructor development courses and specialized trainings.",
-      "duration_uk": "Різна",
-      "duration_en": "Various",
-      "level_uk": "Середній / Експертний",
-      "level_en": "Intermediate / Expert"
+      "tags_uk": ["NATO", "Ukraine Trauma Project", "Розвиток інструкторів", "Спеціалізовані тренінги"],
+      "tags_en": ["NATO", "Ukraine Trauma Project", "Instructor development", "Specialized trainings"]
     },
     {
       "id": "lessons-learned",
@@ -58,12 +60,8 @@
       "image": "/photos/tactical-medicine-bw.png",
       "title_uk": "Lessons Learned",
       "title_en": "Lessons Learned",
-      "description_uk": "Український Форум Тактичної Медицини 3.0 — 350 учасників. Систематизація, аналіз та впровадження досвіду з поля бою. 13 аналітичних звітів, 15 публікацій.",
-      "description_en": "Ukrainian Tactical Medicine Forum 3.0 — 350 participants. Systematizing, analyzing, and implementing battlefield experience. 13 analytical reports, 15 publications.",
-      "duration_uk": "Щорічно",
-      "duration_en": "Annual",
-      "level_uk": "Всі рівні",
-      "level_en": "All levels"
+      "tags_uk": ["Форум Тактичної Медицини", "350 учасників", "13 аналітичних звітів", "15 публікацій"],
+      "tags_en": ["Tactical Medicine Forum", "350 participants", "13 analytical reports", "15 publications"]
     }
   ]
 }

@@ -2,8 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
-import Image from 'next/image';
-import { Users, Crosshair, TrendingUp, GraduationCap, BookOpen, Heart, type LucideIcon } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import AnimatedCounter from '@/components/ui/AnimatedCounter';
 import UavIllustration from '@/components/ui/UavIllustration';
@@ -14,19 +12,6 @@ type TrackHeaderProps = {
   track: 'uav' | 'tactical-medicine';
 };
 
-const trackImages: Record<string, string> = {
-  uav: '/photos/my-durves-vector.svg',
-  'tactical-medicine': '/photos/tactical-medicine-bw.png',
-};
-
-const numberIcons: Record<string, LucideIcon> = {
-  crews: Users,
-  'kill-rate': Crosshair,
-  efficiency: TrendingUp,
-  participants: GraduationCap,
-  trainings: BookOpen,
-  'trained-total': Heart,
-};
 
 const advantagesByTrack = {
   uav: [
@@ -54,7 +39,7 @@ export default function TrackHeader({ track }: TrackHeaderProps) {
   return (
     <section
       id={`track-${track}`}
-      className="pt-24 md:pt-32 pb-12 md:pb-16 bg-white border-t border-neutral-200"
+      className="pt-24 md:pt-32 pb-10 bg-white"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Header: текст + фото */}
@@ -107,28 +92,20 @@ export default function TrackHeader({ track }: TrackHeaderProps) {
           </ScrollReveal>
         </div>
 
-        {/* Key numbers — compact icon cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
-          {numbers.map((item, index) => {
-            const Icon = numberIcons[item.id] || Users;
-            return (
-              <ScrollReveal key={item.id} delay={0.3 + index * 0.1}>
-                <div className="flex items-start gap-3 p-4 rounded-xl bg-neutral-50 border border-neutral-100">
-                  <div className="shrink-0 w-9 h-9 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
-                    <Icon className="w-4 h-4" strokeWidth={1.5} />
-                  </div>
-                  <div>
-                    <p className="text-sm font-bold text-neutral-900 leading-tight">
-                      <AnimatedCounter value={item.numericValue} suffix={item.suffix} />
-                    </p>
-                    <p className="text-xs text-neutral-500 mt-1 leading-snug">
-                      {locale === 'uk' ? item.label_uk : item.label_en}
-                    </p>
-                  </div>
-                </div>
-              </ScrollReveal>
-            );
-          })}
+        {/* Key numbers */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
+          {numbers.map((item, index) => (
+            <ScrollReveal key={item.id} delay={0.3 + index * 0.1}>
+              <div className="py-4">
+                <p className="text-4xl md:text-5xl font-bold text-neutral-900 leading-none">
+                  <AnimatedCounter value={item.numericValue} suffix={item.suffix} />
+                </p>
+                <p className="text-sm text-neutral-500 mt-2 leading-snug">
+                  {locale === 'uk' ? item.label_uk : item.label_en}
+                </p>
+              </div>
+            </ScrollReveal>
+          ))}
         </div>
       </div>
     </section>

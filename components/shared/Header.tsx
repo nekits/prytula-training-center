@@ -10,11 +10,31 @@ export default function Header() {
   const t = useTranslations('header');
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const sectionIds = ['about', 'track-uav', 'track-tactical-medicine', 'partnerships'];
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { rootMargin: '-40% 0px -50% 0px' }
+    );
+    sectionIds.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+    return () => observer.disconnect();
   }, []);
 
   useEffect(() => {
@@ -28,8 +48,8 @@ export default function Header() {
 
   const navItems = [
     { href: '#about', label: t('nav.about') },
-    { href: '#courses', label: t('nav.courses') },
-    { href: '#achievements', label: t('nav.achievements') },
+    { href: '#track-uav', label: t('nav.uav') },
+    { href: '#track-tactical-medicine', label: t('nav.tactical_medicine') },
     { href: '#partnerships', label: t('nav.partnerships') },
   ];
 
@@ -61,28 +81,25 @@ export default function Header() {
 
             {/* Desktop nav */}
             <nav className="hidden lg:flex items-center gap-1">
-              {navItems.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  className="relative px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors"
-                >
-                  {item.label}
-                </a>
-              ))}
+              {navItems.map((item) => {
+                const isActive = activeSection === item.href.slice(1);
+                return (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    className={`relative px-4 py-2 text-sm font-medium transition-colors ${
+                      isActive ? 'text-neutral-900' : 'text-neutral-400'
+                    }`}
+                  >
+                    {item.label}
+                  </a>
+                );
+              })}
             </nav>
 
             {/* Right side */}
             <div className="flex items-center gap-3">
               <LanguageSwitcher />
-              <a
-                href="https://prytulafoundation.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hidden lg:inline-flex items-center h-10 px-5 bg-[#f3f4fc] text-neutral-700 rounded-full text-sm font-medium hover:text-neutral-900 transition-colors"
-              >
-                {t('foundation_button')}
-              </a>
               <a
                 href="#registration"
                 className="hidden sm:inline-flex items-center gap-2 h-10 px-6 bg-primary text-white rounded-full text-sm font-semibold hover:bg-primary-600 transition-colors"
@@ -114,20 +131,13 @@ export default function Header() {
                   key={item.href}
                   href={item.href}
                   onClick={() => setMobileOpen(false)}
-                  className="px-4 py-3 text-lg font-medium text-neutral-700 hover:text-primary hover:bg-primary-50 rounded-xl transition-colors"
+                  className={`px-4 py-3 text-lg font-medium rounded-xl transition-colors ${
+                    activeSection === item.href.slice(1) ? 'text-neutral-900' : 'text-neutral-400'
+                  }`}
                 >
                   {item.label}
                 </a>
               ))}
-              <a
-                href="https://prytulafoundation.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileOpen(false)}
-                className="mt-4 flex items-center justify-center px-6 py-3 bg-[#f3f4fc] text-neutral-700 rounded-full text-center font-medium hover:text-neutral-900 transition-colors"
-              >
-                {t('foundation_button')}
-              </a>
               <a
                 href="#registration"
                 onClick={() => setMobileOpen(false)}

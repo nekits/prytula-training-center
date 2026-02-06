@@ -9,9 +9,9 @@
     "logo_sub": "Prytula Foundation",
     "nav": {
       "about": "About",
-      "courses": "Courses",
-      "achievements": "Achievements",
-      "partnerships": "Partnerships"
+      "uav": "Pilot Training",
+      "tactical_medicine": "TacMed",
+      "partnerships": "Partners"
     },
     "cta": "Register",
     "foundation_button": "Serhiy Prytula Foundation"
@@ -19,12 +19,12 @@
   "hero": {
     "line1": "Training Center",
     "line2": "Serhiy Prytula Foundation",
-    "subtitle": "Saving lives of military personnel by training highly professional crews of UAV operators — aerial target interceptors.",
+    "subtitle": "Training those who defend our skies and save lives on the front line. Free training for active military personnel.",
     "cta": "Register for a Course",
     "cta_secondary": "Learn more",
-    "trust_1": "Certified per Resolution №1129",
-    "trust_2": "77+ trained crews",
-    "trust_3": "83% kill rate"
+    "trust_1": "Drone interception",
+    "trust_2": "Tactical medicine",
+    "trust_3": "Studying & implementing experience"
   },
   "about": {
     "label": "About us",
@@ -101,9 +101,8 @@
     "label": "Programs",
     "title": "Our Courses",
     "subtitle": "Professional training in key areas",
-    "duration": "Duration",
-    "level": "Level",
-    "learn_more": "Learn more"
+    "section_title": "Training tracks",
+    "section_subtitle": "Systems we train on"
   },
   "registration": {
     "title": "Register for a Course",
