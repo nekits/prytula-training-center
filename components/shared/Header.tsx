@@ -47,23 +47,15 @@ export default function Header() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <a href="#" className="flex items-center gap-3 group">
-              <div className="relative w-10 h-10 transition-transform group-hover:scale-105">
+            <a href="#" className="group">
+              <div className="relative h-14 w-40 transition-transform group-hover:scale-105">
                 <Image
                   src="/branding/logo/nc-logo.png"
-                  alt="Training Center"
+                  alt="Навчальний центр Фонду Притули"
                   fill
-                  className="object-contain"
+                  className="object-contain object-left"
                   priority
                 />
-              </div>
-              <div className="hidden sm:block">
-                <div className="font-bold text-sm leading-tight text-neutral-900">
-                  {t('logo')}
-                </div>
-                <div className="text-xs text-neutral-500">
-                  {t('logo_sub')}
-                </div>
               </div>
             </a>
 

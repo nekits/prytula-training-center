@@ -32,8 +32,8 @@ export default function Hero() {
             <Image
               src="/branding/logo/nc-logo.png"
               alt="Training Center Logo"
-              width={120}
-              height={120}
+              width={220}
+              height={220}
               className="relative drop-shadow-2xl"
               priority
             />
