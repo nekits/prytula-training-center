@@ -10,8 +10,16 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Gradient mesh background */}
-      <div className="absolute inset-0 gradient-mesh" />
+      {/* Background photo */}
+      <Image
+        src="/photos/vb140-flight.jpg"
+        alt="VB140 drone in flight"
+        fill
+        className="object-cover"
+        priority
+      />
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
 
       {/* Floating decorative orbs */}
       <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
@@ -47,10 +55,10 @@ export default function Hero() {
           transition={{ delay: 0.2, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-[clamp(2.5rem,8vw,8rem)] font-bold leading-[1.05] tracking-tight mb-8"
         >
-          <span className="block text-neutral-900">
+          <span className="block text-white">
             {t('line1')}
           </span>
-          <span className="block bg-gradient-to-r from-primary via-primary-500 to-primary-700 bg-clip-text text-transparent">
+          <span className="block bg-gradient-to-r from-primary-300 via-primary-400 to-primary-500 bg-clip-text text-transparent">
             {t('line2')}
           </span>
         </motion.h1>
@@ -60,7 +68,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-lg sm:text-xl md:text-2xl text-neutral-600 max-w-3xl mx-auto mb-12 leading-relaxed font-light"
+          className="text-lg sm:text-xl md:text-2xl text-neutral-200 max-w-3xl mx-auto mb-12 leading-relaxed font-light"
         >
           {t('subtitle')}
         </motion.p>
@@ -82,7 +90,7 @@ export default function Hero() {
           </a>
           <a
             href="#about"
-            className="group px-10 py-4 border-2 border-neutral-200 text-neutral-700 rounded-full text-lg font-semibold hover:border-neutral-300 hover:bg-neutral-50 transition-all duration-300 hover:-translate-y-0.5"
+            className="group px-10 py-4 border-2 border-white/30 text-white rounded-full text-lg font-semibold hover:border-white/60 hover:bg-white/10 transition-all duration-300 hover:-translate-y-0.5"
           >
             {t('cta_secondary')}
           </a>
@@ -93,7 +101,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.8 }}
-          className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm text-neutral-500"
+          className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm text-neutral-300"
         >
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
@@ -117,7 +125,7 @@ export default function Hero() {
         transition={{ delay: 1.2, duration: 0.8 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
       >
-        <a href="#about" className="text-neutral-400 hover:text-neutral-600 transition-colors">
+        <a href="#about" className="text-neutral-400 hover:text-white transition-colors">
           <ChevronDown className="w-6 h-6 animate-bounce-slow" />
         </a>
       </motion.div>

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Prytula Foundation Training Center | Professional Military Training",
-    "description": "Professional military training: FPV drones, interceptors, tactical medicine. Full cycle from training to equipment supply. Free for Armed Forces of Ukraine.",
-    "og_site_name": "Prytula Foundation Training Center"
+    "title": "Serhiy Prytula Foundation Training Center | Interceptor Crew Training",
+    "description": "Professional training for UAV interceptor crews. Certified center. 83% kill rate. Free for Armed Forces of Ukraine.",
+    "og_site_name": "Serhiy Prytula Foundation Training Center"
   },
   "header": {
     "logo": "Training Center",
@@ -16,40 +16,40 @@
     "cta": "Register"
   },
   "hero": {
-    "line1": "Professional training for",
-    "line2": "Ukraine's defenders",
-    "subtitle": "Prytula Foundation Training Center prepares military personnel in FPV drones, interceptors, and tactical medicine. Full cycle: from training to equipment supply.",
+    "line1": "Training Center",
+    "line2": "Serhiy Prytula Foundation",
+    "subtitle": "Saving lives of military personnel by training highly professional crews of UAV operators — aerial target interceptors.",
     "cta": "Register for a Course",
     "cta_secondary": "Learn more",
-    "trust_1": "Free for Armed Forces",
-    "trust_2": "150+ graduates",
-    "trust_3": "5000+ hours of practice"
+    "trust_1": "Certified per Resolution №1129",
+    "trust_2": "77+ trained crews",
+    "trust_3": "83% kill rate"
   },
   "about": {
     "label": "About us",
     "title": "About Training Center",
-    "paragraph1": "Prytula Foundation Training Center is a unique ecosystem for professional military training. We don't just teach — we provide a full cycle: from theory to practice, from training to equipment supply to the frontlines.",
-    "paragraph2": "Our courses are developed together with experienced instructors and military personnel who have real combat experience. Each graduate receives not only knowledge and skills, but also modern equipment for combat missions.",
-    "paragraph3": "Since our launch, we have trained over 100 cadets who successfully apply their skills on the frontlines. Our mission is to make Ukraine's army the most technologically equipped and professional."
+    "paragraph1": "Serhiy Prytula Charitable Foundation established the Training Center. For years, the Foundation has been supporting the saturation of Ukraine's Security and Defense Forces with innovative equipment, as well as providing personnel training.",
+    "paragraph2": "We don't just purchase drones for the army — we invest in professional crew training to ensure high efficiency of technology application. An untrained crew cannot realize the potential of the equipment they use.",
+    "paragraph3": "Our professional team of 8 instructors pours their heart into every cadet. Former military personnel and civilian professionals work together to ensure the quality of the training process."
   },
   "advantages": {
     "label": "Advantages",
     "title": "Why choose us",
     "ecosystem": {
-      "title": "Foundation Ecosystem",
-      "description": "Part of the large Prytula Foundation ecosystem with access to resources and partner network"
+      "title": "Certified Center",
+      "description": "Certified per Resolution №1129. Member of the UAV Schools Association. Cooperation with the Gunsmiths Association."
     },
     "full-cycle": {
       "title": "Full Cycle",
-      "description": "From training to equipment supply — we support graduates at every stage"
+      "description": "10 days of training: theory, demonstration, 18 hours of simulator, 24 hours of flight practice. No more than 3 cadets per instructor."
     },
     "expertise": {
-      "title": "Expertise",
-      "description": "Instructors with real combat experience, modern methods and equipment"
+      "title": "Transparency & Trust",
+      "description": "Every invoice, receipt, act, spreadsheet — fully open to our partners."
     },
     "results": {
-      "title": "Results",
-      "description": "100+ trained cadets who successfully apply their skills on the frontlines"
+      "title": "Proven Effectiveness",
+      "description": "83% kill rate. 1 UAH spent destroys 52 UAH of enemy assets."
     }
   },
   "key_numbers": {
@@ -65,8 +65,8 @@
     "learn_more": "Learn more"
   },
   "military_units": {
-    "title": "20+ Armed Forces units",
-    "subtitle": "Over 20 Armed Forces of Ukraine units trust our Training Center"
+    "title": "Training in 2 UAV directions",
+    "subtitle": "Team of 8 instructors. Own training ground with up to 4 crews in the air simultaneously. No more than 3 cadets per 1 instructor."
   },
   "registration": {
     "title": "Register for a Course",
@@ -85,15 +85,15 @@
   "partnerships": {
     "label": "Cooperation",
     "title": "Partnership",
-    "description": "We invite companies, organizations, and individual specialists who want to contribute to training Ukraine's defenders.",
+    "description": "Every invoice, receipt, act, spreadsheet — fully open to our partners. Quality training is not cheap. But every downed enemy UAV is a strongpoint that won't be hit by a guided bomb.",
     "benefits": {
       "impact": {
         "title": "Real Impact",
-        "description": "Your support directly impacts the combat readiness of the Armed Forces and battlefield results"
+        "description": "1 UAH spent destroys 52 UAH of enemy assets. Every downed UAV saves lives."
       },
       "transparency": {
-        "title": "Transparency",
-        "description": "Full reporting on fund usage and achieved results with regular updates"
+        "title": "Full Transparency",
+        "description": "Every invoice, receipt, act, spreadsheet — fully open to our partners with regular updates."
       },
       "recognition": {
         "title": "Recognition",
@@ -106,7 +106,7 @@
   },
   "footer": {
     "brand": "Training Center",
-    "tagline": "Professional training for Ukraine's defenders with full equipment supply.",
+    "tagline": "Saving lives of military personnel by training highly professional crews.",
     "nav_title": "Navigation",
     "nav": {
       "about": "About",
@@ -116,12 +116,12 @@
     },
     "courses_title": "Courses",
     "course": {
-      "fpv": "FPV Operator",
-      "interceptors": "Interceptors",
+      "fpv": "VB140 \"Bliskavka\"",
+      "interceptors": "\"Tekhnotaras\"",
       "medicine": "Tactical Medicine"
     },
     "contact_title": "Contacts",
     "address": "Kyiv, Ukraine",
-    "copyright": "© 2026 Prytula Foundation Training Center. All rights reserved."
+    "copyright": "© 2026 Serhiy Prytula Foundation Training Center. All rights reserved."
   }
 }
