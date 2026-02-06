@@ -32,24 +32,58 @@
     "paragraph2": "We don't just purchase drones for the army — we invest in professional crew training to ensure high efficiency of technology application. An untrained crew cannot realize the potential of the equipment they use.",
     "paragraph3": "Our professional team of 8 instructors pours their heart into every cadet. Former military personnel and civilian professionals work together to ensure the quality of the training process."
   },
+  "tracks": {
+    "uav": {
+      "label": "UAV Pilot Training",
+      "title": "Full Piloting Course",
+      "description": "Comprehensive operator training — from basic knowledge and simulators to practical flights in combat scenarios. Programs are developed by instructors with frontline experience and constantly updated according to battlefield realities."
+    },
+    "tactical_medicine": {
+      "label": "Tactical Medicine Training",
+      "title": "Battlefield Medicine",
+      "description": "Preparing fighters to provide first aid in combat conditions — from stopping bleeding to evacuating the wounded. Courses are built on real TCCC protocols and constantly adapted to current battlefield challenges."
+    }
+  },
   "advantages": {
-    "label": "Advantages",
-    "title": "Why choose us",
-    "ecosystem": {
-      "title": "Certified Center",
-      "description": "Certified per Resolution №1129. Member of the UAV Schools Association. Cooperation with the Gunsmiths Association."
+    "uav": {
+      "label": "Advantages",
+      "title": "Why choose our UAV track",
+      "ecosystem": {
+        "title": "Certified per Resolution №1129",
+        "description": "Official certification in accordance with Resolution №1129."
+      },
+      "full-cycle": {
+        "title": "Member of UAV Schools Association",
+        "description": "Part of the UAV Schools Association of Ukraine."
+      },
+      "expertise": {
+        "title": "Max 3 cadets per instructor",
+        "description": "Individual approach to every cadet."
+      },
+      "results": {
+        "title": "Own training ground",
+        "description": "Dedicated training ground for practical flights."
+      }
     },
-    "full-cycle": {
-      "title": "Full Cycle",
-      "description": "10 days of training: theory, demonstration, 18 hours of simulator, 24 hours of flight practice. No more than 3 cadets per instructor."
-    },
-    "expertise": {
-      "title": "Transparency & Trust",
-      "description": "Every invoice, receipt, act, spreadsheet — fully open to our partners."
-    },
-    "results": {
-      "title": "Proven Effectiveness",
-      "description": "83% kill rate. 1 UAH spent destroys 52 UAH of enemy assets."
+    "tactical_medicine": {
+      "label": "Advantages",
+      "title": "Why choose our tactical medicine track",
+      "scale": {
+        "title": "Annual Tactical Medicine Forum",
+        "description": "Large-scale forum for sharing experience and best practices."
+      },
+      "international": {
+        "title": "Monthly specialized seminars",
+        "description": "Regular seminars on current tactical medicine topics."
+      },
+      "analytics": {
+        "title": "Analytical reports",
+        "description": "Systematizing experience and evidence-based approach to training."
+      },
+      "network": {
+        "title": "Lessons Learned implementation",
+        "description": "Continuous program improvement based on real combat experience."
+      }
     }
   },
   "key_numbers": {
@@ -63,10 +97,6 @@
     "duration": "Duration",
     "level": "Level",
     "learn_more": "Learn more"
-  },
-  "military_units": {
-    "title": "Training in 2 UAV directions",
-    "subtitle": "Team of 8 instructors. Own training ground with up to 4 crews in the air simultaneously. No more than 3 cadets per 1 instructor."
   },
   "registration": {
     "title": "Register for a Course",
@@ -114,10 +144,9 @@
       "partnerships": "Partnership",
       "support": "Support"
     },
-    "courses_title": "Courses",
+    "courses_title": "Tracks",
     "course": {
-      "fpv": "VB140 \"Bliskavka\"",
-      "interceptors": "\"Tekhnotaras\"",
+      "uav": "UAV Pilot Training",
       "medicine": "Tactical Medicine"
     },
     "contact_title": "Contacts",

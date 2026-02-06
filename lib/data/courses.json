@@ -2,6 +2,7 @@
   "courses": [
     {
       "id": "vb140",
+      "track": "uav",
       "image": "/photos/vb140-flight.jpg",
       "title_uk": "VB140 \"Блискавка\"",
       "title_en": "VB140 \"Bliskavka\"",
@@ -14,6 +15,7 @@
     },
     {
       "id": "tekhnotaras",
+      "track": "uav",
       "image": "/photos/technotaras.png",
       "title_uk": "\"Технотарас\" (Taras-P)",
       "title_en": "\"Tekhnotaras\" (Taras-P)",
@@ -25,16 +27,43 @@
       "level_en": "Intermediate / Expert"
     },
     {
-      "id": "tactical-medicine",
+      "id": "field-training",
+      "track": "tactical-medicine",
       "image": "/photos/tactical-medicine-bw.png",
-      "title_uk": "Тактична медицина",
-      "title_en": "Tactical Medicine",
-      "description_uk": "Підготовка Стрільців-Санітарів та Бойових Медиків. Забезпечення розхідними матеріалами та інструментами заради кожного життя.",
-      "description_en": "Training of Combat Medics and Shooter-Paramedics. Providing consumables and tools for every life saved.",
+      "title_uk": "Навчання на полігоні",
+      "title_en": "Field Training",
+      "description_uk": "Підготовка Стрільців-Санітарів та Бойових Медиків. Курси Stop The Bleed (CLS) та Advanced Shock Management (ASM). Забезпечення розхідними матеріалами та інструментами.",
+      "description_en": "Training of Combat Medics and Shooter-Paramedics. Stop The Bleed (CLS) and Advanced Shock Management (ASM) courses. Providing consumables and tools.",
       "duration_uk": "1 тиждень",
       "duration_en": "1 week",
       "level_uk": "Початковий / Середній",
       "level_en": "Beginner / Intermediate"
+    },
+    {
+      "id": "external-training",
+      "track": "tactical-medicine",
+      "image": "/photos/tactical-medicine-bw.png",
+      "title_uk": "Зовнішнє навчання",
+      "title_en": "External Training",
+      "description_uk": "Семінари та навчання спільно з NATO, Ukraine Trauma Project та міжнародними партнерами. Курси розвитку інструкторів та спеціалізовані тренінги.",
+      "description_en": "Seminars and training in collaboration with NATO, Ukraine Trauma Project and international partners. Instructor development courses and specialized trainings.",
+      "duration_uk": "Різна",
+      "duration_en": "Various",
+      "level_uk": "Середній / Експертний",
+      "level_en": "Intermediate / Expert"
+    },
+    {
+      "id": "lessons-learned",
+      "track": "tactical-medicine",
+      "image": "/photos/tactical-medicine-bw.png",
+      "title_uk": "Lessons Learned",
+      "title_en": "Lessons Learned",
+      "description_uk": "Український Форум Тактичної Медицини 3.0 — 350 учасників. Систематизація, аналіз та впровадження досвіду з поля бою. 13 аналітичних звітів, 15 публікацій.",
+      "description_en": "Ukrainian Tactical Medicine Forum 3.0 — 350 participants. Systematizing, analyzing, and implementing battlefield experience. 13 analytical reports, 15 publications.",
+      "duration_uk": "Щорічно",
+      "duration_en": "Annual",
+      "level_uk": "Всі рівні",
+      "level_en": "All levels"
     }
   ]
 }

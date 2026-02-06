@@ -10,7 +10,6 @@ export default function Footer() {
     <footer className="bg-neutral-950 text-neutral-400">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-          {/* Branding */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <div className="relative w-8 h-8">
@@ -28,7 +27,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Navigation */}
           <div>
             <h4 className="text-white font-semibold text-sm mb-4">{t('nav_title')}</h4>
             <nav className="flex flex-col gap-2">
@@ -39,17 +37,14 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Courses */}
           <div>
             <h4 className="text-white font-semibold text-sm mb-4">{t('courses_title')}</h4>
             <nav className="flex flex-col gap-2">
-              <span className="text-sm">{t('course.fpv')}</span>
-              <span className="text-sm">{t('course.interceptors')}</span>
-              <span className="text-sm">{t('course.medicine')}</span>
+              <a href="#track-uav" className="text-sm hover:text-white transition-colors">{t('course.uav')}</a>
+              <a href="#track-tactical-medicine" className="text-sm hover:text-white transition-colors">{t('course.medicine')}</a>
             </nav>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-white font-semibold text-sm mb-4">{t('contact_title')}</h4>
             <div className="flex flex-col gap-2 text-sm">
@@ -62,7 +57,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
       <div className="border-t border-neutral-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-neutral-500">{t('copyright')}</p>

@@ -2,36 +2,26 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { Heart } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import coursesData from '@/lib/data/courses.json';
 
-export default function Courses() {
+type CoursesProps = {
+  track: 'uav' | 'tactical-medicine';
+};
+
+export default function Courses({ track }: CoursesProps) {
   const locale = useLocale();
   const t = useTranslations('courses');
+  const courses = coursesData.courses.filter((course) => course.track === track);
+  const gridCols = courses.length === 2 ? 'md:grid-cols-2' : 'md:grid-cols-3';
 
   return (
-    <section id="courses" className="py-24 md:py-32 bg-white">
+    <section id={track === 'uav' ? 'courses' : undefined} className="pt-0 pb-16 md:pb-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <ScrollReveal>
-          <div className="text-center mb-16">
-            <span className="text-sm font-semibold text-primary uppercase tracking-wider">
-              {t('label')}
-            </span>
-            <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 mt-3">
-              {t('title')}
-            </h2>
-            <p className="text-neutral-600 mt-4 text-lg max-w-2xl mx-auto">
-              {t('subtitle')}
-            </p>
-          </div>
-        </ScrollReveal>
-
-        <div className="grid md:grid-cols-3 gap-8">
-          {coursesData.courses.map((course, index) => (
+        <div className={`grid ${gridCols} gap-8`}>
+          {courses.map((course, index) => (
             <ScrollReveal key={course.id} delay={index * 0.1}>
               <div className="group relative bg-white rounded-2xl border border-neutral-100 overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-primary/8 hover:-translate-y-1">
-                {/* Course photo */}
                 <div className="relative h-48 overflow-hidden">
                   <Image
                     src={course.image}
@@ -42,7 +32,6 @@ export default function Courses() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
                 </div>
 
-                {/* Content */}
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-neutral-900 mb-3">
                     {locale === 'uk' ? course.title_uk : course.title_en}
@@ -51,7 +40,6 @@ export default function Courses() {
                     {locale === 'uk' ? course.description_uk : course.description_en}
                   </p>
 
-                  {/* Tags */}
                   <div className="flex flex-wrap gap-2 mb-6">
                     <span className="inline-flex items-center px-3 py-1 rounded-full bg-neutral-100 text-xs font-medium text-neutral-700">
                       {t('duration')}: {locale === 'uk' ? course.duration_uk : course.duration_en}

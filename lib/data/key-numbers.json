@@ -2,6 +2,7 @@
   "numbers": [
     {
       "id": "crews",
+      "track": "uav",
       "value": "77+",
       "numericValue": 77,
       "suffix": "+",
@@ -10,6 +11,7 @@
     },
     {
       "id": "kill-rate",
+      "track": "uav",
       "value": "83%",
       "numericValue": 83,
       "suffix": "%",
@@ -18,11 +20,39 @@
     },
     {
       "id": "efficiency",
+      "track": "uav",
       "value": "52x",
       "numericValue": 52,
       "suffix": "x",
       "label_uk": "Ефективність: 1 грн знищує 52 грн ворога",
       "label_en": "Efficiency: 1 UAH destroys 52 UAH of enemy assets"
+    },
+    {
+      "id": "participants",
+      "track": "tactical-medicine",
+      "value": "1312+",
+      "numericValue": 1312,
+      "suffix": "+",
+      "label_uk": "Учасників навчань у 2025",
+      "label_en": "Training participants in 2025"
+    },
+    {
+      "id": "trainings",
+      "track": "tactical-medicine",
+      "value": "125",
+      "numericValue": 125,
+      "suffix": "",
+      "label_uk": "Проведених тренінгів",
+      "label_en": "Trainings conducted"
+    },
+    {
+      "id": "trained-total",
+      "track": "tactical-medicine",
+      "value": "3296+",
+      "numericValue": 3296,
+      "suffix": "+",
+      "label_uk": "Підготовлених військових за рік",
+      "label_en": "Military personnel trained per year"
     }
   ]
 }
