@@ -13,7 +13,8 @@
       "achievements": "Achievements",
       "partnerships": "Partnerships"
     },
-    "cta": "Register"
+    "cta": "Register",
+    "foundation_button": "Serhiy Prytula Foundation"
   },
   "hero": {
     "line1": "Training Center",
@@ -28,9 +29,15 @@
   "about": {
     "label": "About us",
     "title": "About Training Center",
-    "paragraph1": "Serhiy Prytula Charitable Foundation established the Training Center. For years, the Foundation has been supporting the saturation of Ukraine's Security and Defense Forces with innovative equipment, as well as providing personnel training.",
+    "paragraph1_before_free": "Serhiy Prytula Foundation Training Center provides ",
+    "paragraph1_free": "free",
+    "paragraph1_between": " professional training for active ",
+    "paragraph1_military": "military personnel",
+    "paragraph1_after": " in areas that directly impact the effectiveness of modern warfare. We train interceptor crews to destroy enemy drones, and fighters — to save the lives of their comrades on the battlefield. We don't just transfer equipment to the Defense Forces — we prepare people who can use it as effectively as possible.",
     "paragraph2": "We don't just purchase drones for the army — we invest in professional crew training to ensure high efficiency of technology application. An untrained crew cannot realize the potential of the equipment they use.",
-    "paragraph3": "Our professional team of 8 instructors pours their heart into every cadet. Former military personnel and civilian professionals work together to ensure the quality of the training process."
+    "paragraph3": "Our professional team of 8 instructors pours their heart into every cadet. Former military personnel and civilian professionals work together to ensure the quality of the training process.",
+    "read_more": "Learn more",
+    "foundation_link": "About Serhiy Prytula Foundation"
   },
   "tracks": {
     "uav": {
@@ -151,6 +158,7 @@
     },
     "contact_title": "Contacts",
     "address": "Kyiv, Ukraine",
+    "social_title": "Follow us",
     "copyright": "© 2026 Serhiy Prytula Foundation Training Center. All rights reserved."
   }
 }

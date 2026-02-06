@@ -17,7 +17,7 @@ export default function LanguageSwitcher() {
   return (
     <button
       onClick={switchLocale}
-      className="px-3 py-1.5 rounded-lg text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 transition-colors"
+      className="w-10 h-10 flex items-center justify-center rounded-full bg-[#f3f4fc] text-sm font-medium text-neutral-700 hover:text-neutral-900 transition-colors"
     >
       {targetLocale.toUpperCase()}
     </button>

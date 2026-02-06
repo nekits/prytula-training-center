@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ArrowRight } from 'lucide-react';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
@@ -48,12 +48,12 @@ export default function Header() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <a href="#" className="group">
-              <div className="relative h-14 w-40 transition-transform group-hover:scale-105">
+              <div className="relative h-10 w-10 transition-transform group-hover:scale-105">
                 <Image
-                  src="/branding/logo/nc-logo.png"
+                  src="/branding/logo/prytula-logo.svg"
                   alt="Навчальний центр Фонду Притули"
                   fill
-                  className="object-contain object-left"
+                  className="object-contain"
                   priority
                 />
               </div>
@@ -76,10 +76,19 @@ export default function Header() {
             <div className="flex items-center gap-3">
               <LanguageSwitcher />
               <a
+                href="https://prytulafoundation.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden lg:inline-flex items-center h-10 px-5 bg-[#f3f4fc] text-neutral-700 rounded-full text-sm font-medium hover:text-neutral-900 transition-colors"
+              >
+                {t('foundation_button')}
+              </a>
+              <a
                 href="#registration"
-                className="hidden sm:inline-flex px-6 py-2.5 bg-primary text-white rounded-full text-sm font-semibold hover:bg-primary-600 transition-colors hover:shadow-lg hover:shadow-primary/20"
+                className="hidden sm:inline-flex items-center gap-2 h-10 px-6 bg-primary text-white rounded-full text-sm font-semibold hover:bg-primary-600 transition-colors"
               >
                 {t('cta')}
+                <ArrowRight className="w-4 h-4" />
               </a>
               {/* Mobile hamburger */}
               <button
@@ -111,11 +120,21 @@ export default function Header() {
                 </a>
               ))}
               <a
+                href="https://prytulafoundation.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileOpen(false)}
+                className="mt-4 flex items-center justify-center px-6 py-3 bg-[#f3f4fc] text-neutral-700 rounded-full text-center font-medium hover:text-neutral-900 transition-colors"
+              >
+                {t('foundation_button')}
+              </a>
+              <a
                 href="#registration"
                 onClick={() => setMobileOpen(false)}
-                className="mt-4 px-6 py-3 bg-primary text-white rounded-full text-center font-semibold hover:bg-primary-600 transition-colors"
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white rounded-full text-center font-semibold hover:bg-primary-600 transition-colors"
               >
                 {t('cta')}
+                <ArrowRight className="w-4 h-4" />
               </a>
             </nav>
           </div>

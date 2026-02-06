@@ -2,14 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { locales } from '@/i18n';
 import { notFound } from 'next/navigation';
-import { Inter } from 'next/font/google';
 import '../globals.css';
-
-const inter = Inter({
-  subsets: ['latin', 'cyrillic'],
-  variable: '--font-inter',
-  display: 'swap',
-});
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -53,7 +46,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={inter.variable}>
+    <html lang={locale}>
       <body className="font-sans text-neutral-900 bg-white">
         <NextIntlClientProvider messages={messages}>
           {children}

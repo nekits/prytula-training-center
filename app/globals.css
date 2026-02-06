@@ -1,8 +1,68 @@
 @import "tailwindcss";
 
+/* e-Ukraine — body font */
+@font-face {
+  font-family: "e-Ukraine";
+  src: url("/fonts/e-Ukraine-UltraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "e-Ukraine";
+  src: url("/fonts/e-Ukraine-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "e-Ukraine";
+  src: url("/fonts/e-Ukraine-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "e-Ukraine";
+  src: url("/fonts/e-Ukraine-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "e-Ukraine";
+  src: url("/fonts/e-Ukraine-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* e-UkraineHead — heading font */
+@font-face {
+  font-family: "e-UkraineHead";
+  src: url("/fonts/e-UkraineHead-UltraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "e-UkraineHead";
+  src: url("/fonts/e-UkraineHead-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "e-UkraineHead";
+  src: url("/fonts/e-UkraineHead-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
-  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
-  --font-heading: "Inter", system-ui, -apple-system, sans-serif;
+  --font-sans: "e-Ukraine", system-ui, -apple-system, sans-serif;
+  --font-heading: "e-UkraineHead", "e-Ukraine", system-ui, sans-serif;
 
   --color-primary-50: #eef2ff;
   --color-primary-100: #e0e7ff;
@@ -35,16 +95,55 @@
   --radius-full: 100px;
 }
 
-/* Base styles */
+/* Base styles — match prytulafoundation.org */
 html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  word-spacing: 1px;
+  font-weight: 500;
+  color: #111;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Typography — paragraph text uses Light weight */
+p {
+  font-weight: 300;
+}
+
+/* Headings — e-UkraineHead with negative letter-spacing */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "e-UkraineHead", "e-Ukraine", system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  letter-spacing: -0.02em;
 }
 
 ::selection {
   background-color: color-mix(in srgb, var(--color-primary) 20%, transparent);
   color: var(--color-primary-900);
+}
+
+/* Wavy accent underline */
+.wavy-accent {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='6' viewBox='0 0 20 6'%3E%3Cpath d='M0 3 Q5 0 10 3 Q15 6 20 3' fill='none' stroke='%23ff9900' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  background-size: 20px 6px;
+  padding-bottom: 4px;
+  text-decoration: none;
 }
 
 /* Noise texture utility */
