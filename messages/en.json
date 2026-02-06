@@ -8,6 +8,67 @@
     },
     "cta": "Register"
   },
+  "hero": {
+    "title": "Prytula Foundation Training Center",
+    "subtitle": "Professional training for Ukraine's defenders",
+    "cta": "Apply now"
+  },
+  "about": {
+    "title": "About the training center",
+    "paragraph1": "Prytula Foundation Training Center is a modern educational platform for training Armed Forces of Ukraine servicemen.",
+    "paragraph2": "We provide quality training using state-of-the-art equipment and methodologies.",
+    "paragraph3": "Our mission is to equip Ukraine's defenders with the knowledge and skills for victory."
+  },
+  "advantages": {
+    "title": "Our advantages",
+    "ecosystem": {
+      "title": "Foundation ecosystem",
+      "description": "Full support from Prytula Foundation: from training to equipment provision"
+    },
+    "full-cycle": {
+      "title": "Full cycle",
+      "description": "Comprehensive training from basic skills to combat application"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "Instructors with real combat experience and international certifications"
+    },
+    "results": {
+      "title": "Results",
+      "description": "150+ trained specialists defending Ukraine on the front lines"
+    }
+  },
+  "courses": {
+    "title": "Our courses",
+    "duration": "Duration",
+    "level": "Level",
+    "learn_more": "Learn more"
+  },
+  "military_units": {
+    "title": "Units we've trained"
+  },
+  "registration": {
+    "title": "Ready to start training?",
+    "subtitle": "Fill out the application and our team will contact you soon.",
+    "cta": "Apply now",
+    "modal": {
+      "title": "Course registration",
+      "placeholder": "Google Form will be embedded here"
+    }
+  },
+  "donate": {
+    "title": "Support the training center",
+    "description": "Your support helps train Ukraine's defenders.",
+    "placeholder": "Phase 2: Link to Prytula Foundation donations page"
+  },
+  "partnerships": {
+    "title": "Partnerships",
+    "description": "We are open to cooperation with organizations and companies that share our mission of supporting Ukraine's defenders.",
+    "contact": {
+      "title": "Partnership contacts",
+      "phone": "Phone"
+    }
+  },
   "footer": {
     "copyright": "© 2026 Prytula Foundation. All rights reserved.",
     "contact": "Contacts"

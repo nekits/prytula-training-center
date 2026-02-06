@@ -1,0 +1,22 @@
+{
+  "numbers": [
+    {
+      "id": "pilots",
+      "value": "150+",
+      "label_uk": "підготовлених пілотів",
+      "label_en": "trained pilots"
+    },
+    {
+      "id": "courses",
+      "value": "25+",
+      "label_uk": "завершених курсів",
+      "label_en": "completed courses"
+    },
+    {
+      "id": "hours",
+      "value": "5000+",
+      "label_uk": "годин практичного навчання",
+      "label_en": "hours of practical training"
+    }
+  ]
+}
