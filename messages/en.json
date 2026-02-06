@@ -1,76 +1,127 @@
 {
+  "meta": {
+    "title": "Prytula Foundation Training Center | Professional Military Training",
+    "description": "Professional military training: FPV drones, interceptors, tactical medicine. Full cycle from training to equipment supply. Free for Armed Forces of Ukraine.",
+    "og_site_name": "Prytula Foundation Training Center"
+  },
   "header": {
-    "logo": "Prytula Foundation Training Center",
+    "logo": "Training Center",
+    "logo_sub": "Prytula Foundation",
     "nav": {
       "about": "About",
       "courses": "Courses",
+      "achievements": "Achievements",
       "partnerships": "Partnerships"
     },
     "cta": "Register"
   },
   "hero": {
-    "title": "Prytula Foundation Training Center",
-    "subtitle": "Professional training for Ukraine's defenders",
-    "cta": "Apply now"
+    "line1": "Professional training for",
+    "line2": "Ukraine's defenders",
+    "subtitle": "Prytula Foundation Training Center prepares military personnel in FPV drones, interceptors, and tactical medicine. Full cycle: from training to equipment supply.",
+    "cta": "Register for a Course",
+    "cta_secondary": "Learn more",
+    "trust_1": "Free for Armed Forces",
+    "trust_2": "150+ graduates",
+    "trust_3": "5000+ hours of practice"
   },
   "about": {
-    "title": "About the training center",
-    "paragraph1": "Prytula Foundation Training Center is a modern educational platform for training Armed Forces of Ukraine servicemen.",
-    "paragraph2": "We provide quality training using state-of-the-art equipment and methodologies.",
-    "paragraph3": "Our mission is to equip Ukraine's defenders with the knowledge and skills for victory."
+    "label": "About us",
+    "title": "About Training Center",
+    "paragraph1": "Prytula Foundation Training Center is a unique ecosystem for professional military training. We don't just teach — we provide a full cycle: from theory to practice, from training to equipment supply to the frontlines.",
+    "paragraph2": "Our courses are developed together with experienced instructors and military personnel who have real combat experience. Each graduate receives not only knowledge and skills, but also modern equipment for combat missions.",
+    "paragraph3": "Since our launch, we have trained over 100 cadets who successfully apply their skills on the frontlines. Our mission is to make Ukraine's army the most technologically equipped and professional."
   },
   "advantages": {
-    "title": "Our advantages",
+    "label": "Advantages",
+    "title": "Why choose us",
     "ecosystem": {
-      "title": "Foundation ecosystem",
-      "description": "Full support from Prytula Foundation: from training to equipment provision"
+      "title": "Foundation Ecosystem",
+      "description": "Part of the large Prytula Foundation ecosystem with access to resources and partner network"
     },
     "full-cycle": {
-      "title": "Full cycle",
-      "description": "Comprehensive training from basic skills to combat application"
+      "title": "Full Cycle",
+      "description": "From training to equipment supply — we support graduates at every stage"
     },
     "expertise": {
       "title": "Expertise",
-      "description": "Instructors with real combat experience and international certifications"
+      "description": "Instructors with real combat experience, modern methods and equipment"
     },
     "results": {
       "title": "Results",
-      "description": "150+ trained specialists defending Ukraine on the front lines"
+      "description": "100+ trained cadets who successfully apply their skills on the frontlines"
     }
   },
+  "key_numbers": {
+    "label": "Achievements",
+    "title": "Our achievements in numbers"
+  },
   "courses": {
-    "title": "Our courses",
+    "label": "Programs",
+    "title": "Our Courses",
+    "subtitle": "Professional training in key areas",
     "duration": "Duration",
     "level": "Level",
     "learn_more": "Learn more"
   },
   "military_units": {
-    "title": "Units we've trained"
+    "title": "20+ Armed Forces units",
+    "subtitle": "Over 20 Armed Forces of Ukraine units trust our Training Center"
   },
   "registration": {
-    "title": "Ready to start training?",
-    "subtitle": "Fill out the application and our team will contact you soon.",
-    "cta": "Apply now",
+    "title": "Register for a Course",
+    "subtitle": "Fill out the form and our team will contact you within 24 hours",
+    "cta": "Submit Application",
     "modal": {
-      "title": "Course registration",
+      "title": "Course Registration",
       "placeholder": "Google Form will be embedded here"
     }
   },
   "donate": {
-    "title": "Support the training center",
-    "description": "Your support helps train Ukraine's defenders.",
-    "placeholder": "Phase 2: Link to Prytula Foundation donations page"
+    "title": "Support Training Center",
+    "description": "Your support helps train professional military personnel and provide them with the best equipment.",
+    "cta": "Donate"
   },
   "partnerships": {
-    "title": "Partnerships",
-    "description": "We are open to cooperation with organizations and companies that share our mission of supporting Ukraine's defenders.",
+    "label": "Cooperation",
+    "title": "Partnership",
+    "description": "We invite companies, organizations, and individual specialists who want to contribute to training Ukraine's defenders.",
+    "benefits": {
+      "impact": {
+        "title": "Real Impact",
+        "description": "Your support directly impacts the combat readiness of the Armed Forces and battlefield results"
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Full reporting on fund usage and achieved results with regular updates"
+      },
+      "recognition": {
+        "title": "Recognition",
+        "description": "Public recognition of your contribution and PR activity opportunities"
+      }
+    },
     "contact": {
-      "title": "Partnership contacts",
-      "phone": "Phone"
+      "title": "Contact us"
     }
   },
   "footer": {
-    "copyright": "© 2026 Prytula Foundation. All rights reserved.",
-    "contact": "Contacts"
+    "brand": "Training Center",
+    "tagline": "Professional training for Ukraine's defenders with full equipment supply.",
+    "nav_title": "Navigation",
+    "nav": {
+      "about": "About",
+      "courses": "Courses",
+      "partnerships": "Partnership",
+      "support": "Support"
+    },
+    "courses_title": "Courses",
+    "course": {
+      "fpv": "FPV Operator",
+      "interceptors": "Interceptors",
+      "medicine": "Tactical Medicine"
+    },
+    "contact_title": "Contacts",
+    "address": "Kyiv, Ukraine",
+    "copyright": "© 2026 Prytula Foundation Training Center. All rights reserved."
   }
 }

@@ -2,36 +2,36 @@
   "courses": [
     {
       "id": "fpv-pilots",
-      "title_uk": "Підготовка пілотів FPV дронів",
-      "title_en": "FPV Drone Pilot Training",
-      "description_uk": "Комплексний курс підготовки операторів безпілотників з FPV керуванням. Від основ до бойового застосування.",
-      "description_en": "Comprehensive training course for FPV drone operators. From basics to combat application.",
-      "duration_uk": "4 тижні",
-      "duration_en": "4 weeks",
-      "level_uk": "Початковий/Середній",
-      "level_en": "Beginner/Intermediate"
+      "title_uk": "Оператор БпАК",
+      "title_en": "FPV Operator",
+      "description_uk": "Інтенсивний курс з підготовки операторів БпАК. Навчання включає теоретичну частину, практичні польоти на симуляторах та реальних дронах, тактику застосування в бойових умовах.",
+      "description_en": "Intensive course for training FPV drone operators. Training includes theory, practical flights on simulators and real drones, and combat application tactics.",
+      "duration_uk": "2 тижні",
+      "duration_en": "2 weeks",
+      "level_uk": "Початковий / Середній",
+      "level_en": "Beginner / Intermediate"
     },
     {
       "id": "interceptor-pilots",
-      "title_uk": "Пілоти дронів-перехоплювачів",
-      "title_en": "Interceptor Drone Pilots",
-      "description_uk": "Спеціалізований курс з підготовки операторів дронів-перехоплювачів для протидії ворожим БПЛА.",
-      "description_en": "Specialized course for training interceptor drone operators to counter enemy UAVs.",
-      "duration_uk": "3 тижні",
-      "duration_en": "3 weeks",
-      "level_uk": "Середній/Просунутий",
-      "level_en": "Intermediate/Advanced"
+      "title_uk": "Перехоплювачі (Anti-drone)",
+      "title_en": "Interceptors (Anti-drone)",
+      "description_uk": "Спеціалізований курс з підготовки операторів систем перехоплення ворожих безпілотників. Включає роботу з різними типами перехоплювачів та інтеграцію з системами ППО.",
+      "description_en": "Specialized course for training operators of enemy drone interception systems. Includes work with various interceptor types and integration with air defense systems.",
+      "duration_uk": "1.5 тижні",
+      "duration_en": "1.5 weeks",
+      "level_uk": "Середній / Експертний",
+      "level_en": "Intermediate / Expert"
     },
     {
       "id": "tactical-medicine",
       "title_uk": "Тактична медицина",
       "title_en": "Tactical Medicine",
-      "description_uk": "Навчання медичних навичок для надання першої допомоги в бойових умовах.",
-      "description_en": "Training in medical skills for providing first aid in combat conditions.",
-      "duration_uk": "2 тижні",
-      "duration_en": "2 weeks",
-      "level_uk": "Початковий",
-      "level_en": "Beginner"
+      "description_uk": "Професійний курс з тактичної медицини. Навчання включає надання першої допомоги в бойових умовах, евакуацію поранених, роботу з сучасними медичними засобами.",
+      "description_en": "Professional tactical medicine course. Training includes first aid in combat conditions, evacuation of wounded, and work with modern medical equipment.",
+      "duration_uk": "1 тиждень",
+      "duration_en": "1 week",
+      "level_uk": "Початковий / Середній",
+      "level_en": "Beginner / Intermediate"
     }
   ]
 }

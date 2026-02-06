@@ -3,20 +3,26 @@
     {
       "id": "pilots",
       "value": "150+",
-      "label_uk": "підготовлених пілотів",
-      "label_en": "trained pilots"
+      "numericValue": 150,
+      "suffix": "+",
+      "label_uk": "Підготовлених пілотів БпАК та операторів перехоплювачів",
+      "label_en": "Trained FPV pilots and interceptor operators"
     },
     {
       "id": "courses",
       "value": "25+",
-      "label_uk": "завершених курсів",
-      "label_en": "completed courses"
+      "numericValue": 25,
+      "suffix": "+",
+      "label_uk": "Завершених навчальних курсів",
+      "label_en": "Completed training courses"
     },
     {
       "id": "hours",
       "value": "5000+",
-      "label_uk": "годин практичного навчання",
-      "label_en": "hours of practical training"
+      "numericValue": 5000,
+      "suffix": "+",
+      "label_uk": "Годин практичного навчання",
+      "label_en": "Hours of practical training"
     }
   ]
 }
