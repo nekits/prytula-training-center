@@ -39,8 +39,8 @@ export default function Header() {
         className={`
           fixed top-0 w-full z-50 transition-all duration-300
           ${scrolled
-            ? 'bg-white/90 backdrop-blur-xl shadow-lg shadow-neutral-900/5 border-b border-neutral-100'
-            : 'bg-white/60 backdrop-blur-md'
+            ? 'bg-white shadow-lg shadow-neutral-900/5 border-b border-neutral-100'
+            : 'bg-white'
           }
         `}
       >
