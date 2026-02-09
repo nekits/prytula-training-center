@@ -28,31 +28,31 @@
       "label_en": "Kills by our pilots"
     },
     {
-      "id": "participants",
-      "track": "tactical-medicine",
-      "value": "1312+",
-      "numericValue": 1312,
-      "suffix": "+",
-      "label_uk": "Учасників навчань у 2025",
-      "label_en": "Training participants in 2025"
-    },
-    {
-      "id": "trainings",
-      "track": "tactical-medicine",
-      "value": "125",
-      "numericValue": 125,
-      "suffix": "",
-      "label_uk": "Проведених тренінгів",
-      "label_en": "Trainings conducted"
-    },
-    {
       "id": "trained-total",
       "track": "tactical-medicine",
-      "value": "3296+",
-      "numericValue": 3296,
+      "value": "24258+",
+      "numericValue": 24258,
       "suffix": "+",
-      "label_uk": "Підготовлених військових за рік",
-      "label_en": "Military personnel trained per year"
+      "label_uk": "Військових пройшли навчання з такмеду",
+      "label_en": "Military personnel trained in tactical medicine"
+    },
+    {
+      "id": "medics-seminars",
+      "track": "tactical-medicine",
+      "value": "2678+",
+      "numericValue": 2678,
+      "suffix": "+",
+      "label_uk": "Медиків та інструкторів на семінарах і форумах",
+      "label_en": "Medics and instructors at seminars and forums"
+    },
+    {
+      "id": "training-days",
+      "track": "tactical-medicine",
+      "value": "263",
+      "numericValue": 263,
+      "suffix": "",
+      "label_uk": "Дні тренінгів у 2025 році",
+      "label_en": "Training days in 2025"
     }
   ]
 }
