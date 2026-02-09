@@ -35,33 +35,6 @@
       "title_en": "\"Sting\"",
       "tags_uk": ["Роторного типу", "Тривалість: 5 днів", "Наймасовіший засіб перехоплення", "Перехоплення розвідувальних БпЛА", "\"Антішахед\""],
       "tags_en": ["Rotary-wing", "Duration: 5 days", "Most widely used interception system", "Reconnaissance UAV interception", "\"Anti-Shahed\""]
-    },
-    {
-      "id": "field-training",
-      "track": "tactical-medicine",
-      "image": "/photos/tactical-medicine-bw.png",
-      "title_uk": "Навчання на полігоні",
-      "title_en": "Field Training",
-      "tags_uk": ["Стрільці-Санітари та Бойові Медики", "Stop The Bleed (CLS)", "Advanced Shock Management (ASM)", "1 тиждень"],
-      "tags_en": ["Combat Medics & Shooter-Paramedics", "Stop The Bleed (CLS)", "Advanced Shock Management (ASM)", "1 week"]
-    },
-    {
-      "id": "external-training",
-      "track": "tactical-medicine",
-      "image": "/photos/tactical-medicine-bw.png",
-      "title_uk": "Зовнішнє навчання",
-      "title_en": "External Training",
-      "tags_uk": ["NATO", "Ukraine Trauma Project", "Розвиток інструкторів", "Спеціалізовані тренінги"],
-      "tags_en": ["NATO", "Ukraine Trauma Project", "Instructor development", "Specialized trainings"]
-    },
-    {
-      "id": "lessons-learned",
-      "track": "tactical-medicine",
-      "image": "/photos/tactical-medicine-bw.png",
-      "title_uk": "Lessons Learned",
-      "title_en": "Lessons Learned",
-      "tags_uk": ["Форум Тактичної Медицини", "350 учасників", "13 аналітичних звітів", "15 публікацій"],
-      "tags_en": ["Tactical Medicine Forum", "350 participants", "13 analytical reports", "15 publications"]
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "upcomingEvent": {
+    "id": "regional-anesthesia-2026-02",
+    "title_uk": "Дискусійна панель — Регіонарна анестезія",
+    "title_en": "Discussion Panel — Regional Anesthesia",
+    "date": "2026-02-21",
+    "date_label_uk": "21 лютого 2026",
+    "date_label_en": "February 21, 2026",
+    "registrationUrl": "https://forms.gle/PLACEHOLDER"
+  },
+  "telegramChannels": [
+    {
+      "id": "courses-private",
+      "image": "/photos/takmed-logo.jpeg",
+      "title_uk": "Комʼюніті бойових медиків",
+      "title_en": "Combat Medics Community",
+      "isPublic": false,
+      "url": null
+    },
+    {
+      "id": "lessons-learned",
+      "image": "/photos/ll-logo.jpeg",
+      "handle": "@Lessons_Learned_Tacmed",
+      "title_uk": "Канал Lessons Learned",
+      "title_en": "Lessons Learned Channel",
+      "description_uk": "Канал присвячений роботі напряму Вивчення та впровадження досвіду в тактичній медицині",
+      "description_en": "Channel dedicated to studying and implementing lessons learned in tactical medicine",
+      "isPublic": true,
+      "url": "https://t.me/Lessons_Learned_Tacmed"
+    }
+  ]
+}

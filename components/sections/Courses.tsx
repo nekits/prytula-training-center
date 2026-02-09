@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { Plane, Clock, Crosshair, Shield, Zap, Users, BookOpen, Globe, Award, type LucideIcon } from 'lucide-react';
+import { Plane, Clock, Crosshair, Shield, Zap, Users, type LucideIcon } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import coursesData from '@/lib/data/courses.json';
 
@@ -45,26 +45,6 @@ const tagIcons: Record<string, LucideIcon | null> = {
   '83% kill rate': Zap,
   'Наймасовіший засіб перехоплення': Users,
   'Most widely used interception system': Users,
-  'Стрільці-Санітари та Бойові Медики': Users,
-  'Combat Medics & Shooter-Paramedics': Users,
-  'Stop The Bleed (CLS)': BookOpen,
-  'Advanced Shock Management (ASM)': BookOpen,
-  '1 тиждень': Clock,
-  '1 week': Clock,
-  'NATO': Globe,
-  'Ukraine Trauma Project': Globe,
-  'Розвиток інструкторів': Users,
-  'Instructor development': Users,
-  'Спеціалізовані тренінги': BookOpen,
-  'Specialized trainings': BookOpen,
-  'Форум Тактичної Медицини': Award,
-  'Tactical Medicine Forum': Award,
-  '350 учасників': Users,
-  '350 participants': Users,
-  '13 аналітичних звітів': BookOpen,
-  '13 analytical reports': BookOpen,
-  '15 публікацій': BookOpen,
-  '15 publications': BookOpen,
 };
 
 const quadcopterTags = new Set(['Роторного типу', 'Rotary-wing']);

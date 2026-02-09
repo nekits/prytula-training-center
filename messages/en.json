@@ -104,6 +104,52 @@
     "section_title": "Training tracks",
     "section_subtitle": "Systems we train on"
   },
+  "tacmed": {
+    "training": {
+      "title": "Training Programs",
+      "combat_medic": {
+        "name": "Combat Medics",
+        "description": "Shooter-Paramedics & Combat Medics — full training course for providing first aid in combat conditions"
+      },
+      "cls": {
+        "name": "Stop The Bleed (CLS)",
+        "description": "Combat Life Saver — basic tactical medicine course for all fighters"
+      },
+      "asm": {
+        "name": "Advanced Shock Management",
+        "description": "Advanced course in shock management in field conditions"
+      },
+      "duration": "Duration: 1 week"
+    },
+    "events": {
+      "title": "Upcoming Event",
+      "register": "Register",
+      "archive_title": "Event Archive",
+      "archive_placeholder": "Under development"
+    },
+    "rnd": {
+      "title": "Research & Analytics",
+      "forum": {
+        "name": "Tactical Medicine Forum",
+        "description": "Annual forum for sharing experience and best practices",
+        "stat": "350 participants"
+      },
+      "monthly": {
+        "name": "Monthly Educational Events",
+        "description": "Regular seminars, discussion panels, and workshops on current tactical medicine topics"
+      },
+      "lessons_learned": {
+        "name": "Lessons Learned",
+        "description": "Systematizing combat experience and implementing evidence-based approach",
+        "stat": "15 publications"
+      }
+    },
+    "community": {
+      "title": "Community",
+      "private_access": "Access after completing a course",
+      "join": "Join the channel"
+    }
+  },
   "registration": {
     "title": "Register for a Course",
     "subtitle": "Fill out the form and our team will contact you within 24 hours",
