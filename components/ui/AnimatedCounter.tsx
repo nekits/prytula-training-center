@@ -11,7 +11,7 @@ interface AnimatedCounterProps {
 
 export default function AnimatedCounter({ value, suffix = '', className = '' }: AnimatedCounterProps) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: true, amount: 0.5 });
   const motionValue = useMotionValue(0);
   const rounded = useTransform(motionValue, (v) => Math.round(v));
   const [display, setDisplay] = useState('0');
