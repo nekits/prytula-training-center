@@ -10,10 +10,11 @@ type AdvantagesProps = {
 
 const advantagesByTrack = {
   uav: [
-    { id: 'ecosystem', Icon: Link2 },
-    { id: 'full-cycle', Icon: Repeat },
-    { id: 'expertise', Icon: Target },
-    { id: 'results', Icon: TrendingUp },
+    { id: 'combat_experience', Icon: Target },
+    { id: 'detection_system', Icon: Link2 },
+    { id: 'odcr', Icon: TrendingUp },
+    { id: 'post_training', Icon: Users },
+    { id: 'certification', Icon: Repeat },
   ],
   'tactical-medicine': [
     { id: 'scale', Icon: Users },

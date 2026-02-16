@@ -61,11 +61,20 @@ export default function Partnerships() {
                 {t('contact.title')}
               </h3>
               <a
-                href="mailto:training@prytulafoundation.org"
+                href="mailto:educational.centre@prytulafoundation.org"
                 className="text-primary hover:text-primary-700 text-lg font-medium transition-colors"
               >
-                training@prytulafoundation.org
+                educational.centre@prytulafoundation.org
               </a>
+              <div className="mt-3">
+                <a
+                  href="tel:+380505250566"
+                  className="text-neutral-600 hover:text-primary text-sm transition-colors"
+                >
+                  +38050 525 0566
+                </a>
+                <span className="text-neutral-400 text-sm ml-2">(Signal, WhatsApp)</span>
+              </div>
             </div>
           </ScrollReveal>
 

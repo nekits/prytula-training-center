@@ -101,7 +101,7 @@ export default function Header() {
             <div className="flex items-center gap-3">
               <LanguageSwitcher />
               <a
-                href="#registration"
+                href="#track-uav"
                 className="hidden sm:inline-flex items-center gap-2 h-10 px-6 bg-primary text-white rounded-full text-sm font-semibold hover:bg-primary-600 transition-colors"
               >
                 {t('cta')}
@@ -139,7 +139,7 @@ export default function Header() {
                 </a>
               ))}
               <a
-                href="#registration"
+                href="#track-uav"
                 onClick={() => setMobileOpen(false)}
                 className="flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white rounded-full text-center font-semibold hover:bg-primary-600 transition-colors"
               >

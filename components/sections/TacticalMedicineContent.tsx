@@ -49,6 +49,13 @@ export default function TacticalMedicineContent() {
                   <p className="text-neutral-600 text-sm leading-relaxed">
                     {t(`training.${program.id}.description`)}
                   </p>
+                  <a
+                    href={`mailto:educational.centre@prytulafoundation.org?subject=${encodeURIComponent(locale === 'uk' ? `Реєстрація на курс: ${t(`training.${program.id}.name`)}` : `Registration for: ${t(`training.${program.id}.name`)}`)}`}
+                    className="group/btn inline-flex items-center gap-1.5 mt-4 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
+                  >
+                    {t('events.register')}
+                    <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 transition-transform" />
+                  </a>
                 </div>
               </ScrollReveal>
             ))}

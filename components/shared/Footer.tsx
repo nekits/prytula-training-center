@@ -57,7 +57,7 @@ export default function Footer() {
               <a href="#about" className="text-sm hover:text-white transition-colors">{t('nav.about')}</a>
               <a href="#courses" className="text-sm hover:text-white transition-colors">{t('nav.courses')}</a>
               <a href="#partnerships" className="text-sm hover:text-white transition-colors">{t('nav.partnerships')}</a>
-              <a href="#registration" className="text-sm hover:text-white transition-colors">{t('nav.support')}</a>
+              <a href="#partnerships" className="text-sm hover:text-white transition-colors">{t('nav.support')}</a>
             </nav>
           </div>
 
@@ -74,8 +74,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold text-sm mb-4">{t('contact_title')}</h4>
             <div className="flex flex-col gap-2 text-sm">
-              <a href="mailto:training@prytulafoundation.org" className="hover:text-white transition-colors">
-                training@prytulafoundation.org
+              <a href="mailto:educational.centre@prytulafoundation.org" className="hover:text-white transition-colors">
+                educational.centre@prytulafoundation.org
+              </a>
+              <a href="tel:+380505250566" className="hover:text-white transition-colors">
+                {t('phone')} <span className="text-neutral-500">({t('phone_messengers')})</span>
               </a>
               <span>{t('address')}</span>
             </div>

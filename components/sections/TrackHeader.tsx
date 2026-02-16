@@ -15,10 +15,11 @@ type TrackHeaderProps = {
 
 const advantagesByTrack = {
   uav: [
-    { id: 'ecosystem', color: 'bg-green-500' },
-    { id: 'full-cycle', color: 'bg-primary' },
-    { id: 'expertise', color: 'bg-accent-orange' },
-    { id: 'results', color: 'bg-primary-400' },
+    { id: 'combat_experience', color: 'bg-green-500' },
+    { id: 'detection_system', color: 'bg-primary' },
+    { id: 'odcr', color: 'bg-accent-orange' },
+    { id: 'post_training', color: 'bg-primary-400' },
+    { id: 'certification', color: 'bg-green-500' },
   ],
   'tactical-medicine': [
     { id: 'scale', color: 'bg-green-500' },

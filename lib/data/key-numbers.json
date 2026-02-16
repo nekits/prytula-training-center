@@ -1,31 +1,31 @@
 {
   "numbers": [
     {
-      "id": "pilots",
+      "id": "courses",
       "track": "uav",
-      "value": "77+",
-      "numericValue": 77,
-      "suffix": "+",
-      "label_uk": "Навчених пілотів",
-      "label_en": "Trained pilots"
+      "value": "13",
+      "numericValue": 13,
+      "suffix": "",
+      "label_uk": "Курсів за 4 місяці",
+      "label_en": "Courses in 4 months"
+    },
+    {
+      "id": "crews",
+      "track": "uav",
+      "value": "53",
+      "numericValue": 53,
+      "suffix": "",
+      "label_uk": "Екіпажі",
+      "label_en": "Crews trained"
     },
     {
       "id": "units",
       "track": "uav",
-      "value": "25+",
-      "numericValue": 25,
-      "suffix": "+",
-      "label_uk": "Підрозділів пройшли навчання",
-      "label_en": "Units completed training"
-    },
-    {
-      "id": "kills",
-      "track": "uav",
-      "value": "757",
-      "numericValue": 757,
+      "value": "38",
+      "numericValue": 38,
       "suffix": "",
-      "label_uk": "Збиттів у наших пілотів",
-      "label_en": "Kills by our pilots"
+      "label_uk": "Підрозділів",
+      "label_en": "Units"
     },
     {
       "id": "trained-total",

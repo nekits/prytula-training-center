@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { Plane, Clock, Crosshair, Shield, Zap, Users, type LucideIcon } from 'lucide-react';
+import { Plane, Clock, Crosshair, Shield, Zap, Users, ArrowRight, type LucideIcon } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import coursesData from '@/lib/data/courses.json';
 
@@ -78,31 +78,41 @@ export default function Courses({ track }: CoursesProps) {
                     />
                   </div>
 
-                  <div className="p-5 flex flex-col justify-center">
-                    <h4 className="text-lg font-bold text-neutral-900 mb-3">
-                      {locale === 'uk' ? course.title_uk : course.title_en}
-                    </h4>
+                  <div className="p-5 flex flex-col justify-between">
+                    <div>
+                      <h4 className="text-lg font-bold text-neutral-900 mb-3">
+                        {locale === 'uk' ? course.title_uk : course.title_en}
+                      </h4>
 
-                    {tags && (
-                      <div className="flex flex-col gap-1.5">
-                        {tags.map((tag) => {
-                          const Icon = tagIcons[tag];
-                          const isQuadcopter = quadcopterTags.has(tag);
-                          return (
-                            <div key={tag} className="flex items-center gap-2">
-                              {isQuadcopter ? (
-                                <QuadcopterIcon className="w-3.5 h-3.5 text-neutral-400 shrink-0" />
-                              ) : Icon ? (
-                                <Icon className="w-3.5 h-3.5 text-neutral-400 shrink-0" strokeWidth={1.5} />
-                              ) : (
-                                <Zap className="w-3.5 h-3.5 text-neutral-400 shrink-0" strokeWidth={1.5} />
-                              )}
-                              <span className="text-xs text-neutral-600">{tag}</span>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    )}
+                      {tags && (
+                        <div className="flex flex-col gap-1.5">
+                          {tags.map((tag) => {
+                            const Icon = tagIcons[tag];
+                            const isQuadcopter = quadcopterTags.has(tag);
+                            return (
+                              <div key={tag} className="flex items-center gap-2">
+                                {isQuadcopter ? (
+                                  <QuadcopterIcon className="w-3.5 h-3.5 text-neutral-400 shrink-0" />
+                                ) : Icon ? (
+                                  <Icon className="w-3.5 h-3.5 text-neutral-400 shrink-0" strokeWidth={1.5} />
+                                ) : (
+                                  <Zap className="w-3.5 h-3.5 text-neutral-400 shrink-0" strokeWidth={1.5} />
+                                )}
+                                <span className="text-xs text-neutral-600">{tag}</span>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
+
+                    <a
+                      href={`mailto:educational.centre@prytulafoundation.org?subject=${encodeURIComponent(locale === 'uk' ? `Реєстрація на курс: ${course.title_uk}` : `Registration for: ${course.title_en}`)}`}
+                      className="group/btn inline-flex items-center gap-1.5 mt-4 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
+                    >
+                      {t('register')}
+                      <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 transition-transform" />
+                    </a>
                   </div>
                 </div>
               </ScrollReveal>
