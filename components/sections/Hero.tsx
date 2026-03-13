@@ -76,26 +76,6 @@ export default function Hero() {
           </a>
         </motion.div>
 
-        {/* Trust indicators */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8, duration: 0.8 }}
-          className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm text-neutral-300"
-        >
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-green-500" />
-            <span>{t('trust_1')}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-primary" />
-            <span>{t('trust_2')}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-accent-orange" />
-            <span>{t('trust_3')}</span>
-          </div>
-        </motion.div>
       </div>
 
       {/* Scroll indicator */}

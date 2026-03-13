@@ -66,15 +66,17 @@ export default function Courses({ track }: CoursesProps) {
         <div className="grid md:grid-cols-2 gap-6">
           {courses.map((course, index) => {
             const tags: string[] = locale === 'uk' ? (course as any).tags_uk : (course as any).tags_en;
+            const isInactive = course.status === 'coming_soon';
+            const hasStatusLabel = !!course.statusLabel_uk;
             return (
               <ScrollReveal key={course.id} delay={index * 0.1}>
-                <div className="group flex bg-white rounded-2xl border border-neutral-100 overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 h-full">
+                <div className={`group flex bg-white rounded-2xl border border-neutral-100 overflow-hidden transition-all duration-300 h-full ${isInactive ? 'opacity-60' : 'hover:shadow-lg hover:-translate-y-0.5'}`}>
                   <div className="relative w-40 shrink-0 overflow-hidden">
                     <Image
                       src={course.image}
                       alt={locale === 'uk' ? course.title_uk : course.title_en}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      className={`object-cover transition-transform duration-500 ${isInactive ? '' : 'group-hover:scale-105'}`}
                     />
                   </div>
 
@@ -106,13 +108,19 @@ export default function Courses({ track }: CoursesProps) {
                       )}
                     </div>
 
-                    <a
-                      href={`mailto:educational.centre@prytulafoundation.org?subject=${encodeURIComponent(locale === 'uk' ? `Реєстрація на курс: ${course.title_uk}` : `Registration for: ${course.title_en}`)}`}
-                      className="group/btn inline-flex items-center gap-1.5 mt-4 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
-                    >
-                      {t('register')}
-                      <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 transition-transform" />
-                    </a>
+                    {(isInactive || hasStatusLabel) ? (
+                      <span className="mt-4 text-sm text-neutral-400">
+                        {locale === 'uk' ? course.statusLabel_uk : course.statusLabel_en}
+                      </span>
+                    ) : (
+                      <a
+                        href={course.registrationUrl ? `/${locale}${course.registrationUrl}` : `mailto:educational.centre@prytulafoundation.org?subject=${encodeURIComponent(locale === 'uk' ? `Реєстрація на курс: ${course.title_uk}` : `Registration for: ${course.title_en}`)}`}
+                        className="group/btn inline-flex items-center gap-1.5 mt-4 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
+                      >
+                        {t('register')}
+                        <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 transition-transform" />
+                      </a>
+                    )}
                   </div>
                 </div>
               </ScrollReveal>

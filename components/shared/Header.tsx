@@ -19,7 +19,7 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    const sectionIds = ['about', 'track-uav', 'track-tactical-medicine', 'partnerships'];
+    const sectionIds = ['about', 'track-uav', 'partnerships'];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -49,7 +49,6 @@ export default function Header() {
   const navItems = [
     { href: '#about', label: t('nav.about') },
     { href: '#track-uav', label: t('nav.uav') },
-    { href: '#track-tactical-medicine', label: t('nav.tactical_medicine') },
     { href: '#partnerships', label: t('nav.partnerships') },
   ];
 

@@ -1,31 +1,14 @@
 {
   "courses": [
     {
-      "id": "vb140",
-      "track": "uav",
-      "image": "/photos/vb140-flight.jpg",
-      "title_uk": "VB140 \"Блискавка\"",
-      "title_en": "VB140 \"Bliskavka\"",
-      "tags_uk": ["Літакового типу", "Тривалість: 10 днів", "Перехоплення розвідувальних БпЛА", "\"Антішахед\""],
-      "tags_en": ["Fixed-wing", "Duration: 10 days", "Reconnaissance UAV interception", "\"Anti-Shahed\""]
-    },
-    {
       "id": "taras-p",
       "track": "uav",
       "image": "/photos/technotaras.png",
       "title_uk": "Taras-P",
       "title_en": "Taras-P",
       "tags_uk": ["Літакового типу", "Тривалість: 10 днів", "83% коефіцієнт збиття", "Перехоплення розвідувальних БпЛА"],
-      "tags_en": ["Fixed-wing", "Duration: 10 days", "83% kill rate", "Reconnaissance UAV interception"]
-    },
-    {
-      "id": "taras-plus",
-      "track": "uav",
-      "image": "/photos/technotaras.png",
-      "title_uk": "Taras+",
-      "title_en": "Taras+",
-      "tags_uk": ["Літакового типу", "Тривалість: 15 днів", "Перехоплення розвідувальних БпЛА", "\"Антішахед\""],
-      "tags_en": ["Fixed-wing", "Duration: 15 days", "Reconnaissance UAV interception", "\"Anti-Shahed\""]
+      "tags_en": ["Fixed-wing", "Duration: 10 days", "83% kill rate", "Reconnaissance UAV interception"],
+      "registrationUrl": "/register/taras-p"
     },
     {
       "id": "sting",
@@ -34,7 +17,31 @@
       "title_uk": "\"Sting\"",
       "title_en": "\"Sting\"",
       "tags_uk": ["Роторного типу", "Тривалість: 5 днів", "Наймасовіший засіб перехоплення", "Перехоплення розвідувальних БпЛА", "\"Антішахед\""],
-      "tags_en": ["Rotary-wing", "Duration: 5 days", "Most widely used interception system", "Reconnaissance UAV interception", "\"Anti-Shahed\""]
+      "tags_en": ["Rotary-wing", "Duration: 5 days", "Most widely used interception system", "Reconnaissance UAV interception", "\"Anti-Shahed\""],
+      "registrationUrl": "/register/sting"
+    },
+    {
+      "id": "vb140",
+      "track": "uav",
+      "image": "/photos/vb140-flight.jpg",
+      "title_uk": "VB140 \"Блискавка\"",
+      "title_en": "VB140 \"Bliskavka\"",
+      "tags_uk": ["Літакового типу", "Тривалість: 10 днів", "Перехоплення розвідувальних БпЛА", "\"Антішахед\""],
+      "tags_en": ["Fixed-wing", "Duration: 10 days", "Reconnaissance UAV interception", "\"Anti-Shahed\""],
+      "statusLabel_uk": "Запис на курс завершено",
+      "statusLabel_en": "Registration closed"
+    },
+    {
+      "id": "taras-plus",
+      "track": "uav",
+      "image": "/photos/technotaras.png",
+      "title_uk": "Taras+",
+      "title_en": "Taras+",
+      "tags_uk": ["Літакового типу", "Тривалість: 15 днів", "Перехоплення розвідувальних БпЛА", "\"Антішахед\""],
+      "tags_en": ["Fixed-wing", "Duration: 15 days", "Reconnaissance UAV interception", "\"Anti-Shahed\""],
+      "status": "coming_soon",
+      "statusLabel_uk": "Незабаром відкриття курсу",
+      "statusLabel_en": "Course opening soon"
     }
   ]
 }

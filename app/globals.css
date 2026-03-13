@@ -135,6 +135,12 @@ h2 {
   color: var(--color-primary-900);
 }
 
+footer ::selection,
+footer::selection {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
 /* Wavy accent underline */
 .wavy-accent {
   background-color: transparent;

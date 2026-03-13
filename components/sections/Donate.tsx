@@ -31,7 +31,7 @@ export default function Donate() {
               </p>
 
               <a
-                href="https://prytulafoundation.org/donate"
+                href="https://prytulafoundation.org/donation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-neutral-900 text-white rounded-full text-lg font-semibold hover:bg-neutral-800 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"

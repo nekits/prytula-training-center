@@ -4,7 +4,7 @@ import Hero from '@/components/sections/Hero';
 import About from '@/components/sections/About';
 import TrackHeader from '@/components/sections/TrackHeader';
 import Courses from '@/components/sections/Courses';
-import TacticalMedicineContent from '@/components/sections/TacticalMedicineContent';
+
 import Partnerships from '@/components/sections/Partnerships';
 import SmoothScroll from '@/components/SmoothScroll';
 
@@ -20,10 +20,6 @@ export default function HomePage() {
         {/* Напрямок 1: БпАК */}
         <TrackHeader track="uav" />
         <Courses track="uav" />
-
-        {/* Напрямок 2: Тактична медицина */}
-        <TrackHeader track="tactical-medicine" />
-        <TacticalMedicineContent />
 
         <Partnerships />
       </main>
