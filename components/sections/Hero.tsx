@@ -61,7 +61,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16"
         >
           <a
-            href="#registration"
+            href="#track-uav"
             className="group relative px-10 py-4 bg-primary text-white rounded-full text-lg font-semibold overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-primary/30 hover:-translate-y-1"
           >
             <div className="absolute inset-0 bg-gradient-to-r from-primary-600 via-primary to-primary-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
