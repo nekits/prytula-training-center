@@ -38,7 +38,7 @@ export default function Partnerships() {
               </h3>
               <a
                 href="mailto:educational.centre@prytulafoundation.org"
-                className="text-primary hover:text-primary-700 text-lg font-medium transition-colors"
+                className="text-primary hover:text-primary-700 text-lg font-medium transition-colors break-all"
               >
                 educational.centre@prytulafoundation.org
               </a>
