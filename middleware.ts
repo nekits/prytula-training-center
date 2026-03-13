@@ -12,7 +12,7 @@ function createPasswordPage(): NextResponse {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Навчальний центр — Доступ</title>
+  <title>Навчальний Центр — Доступ</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -78,7 +78,7 @@ function createPasswordPage(): NextResponse {
 </head>
 <body>
   <div class="container">
-    <h1>Навчальний центр</h1>
+    <h1>Навчальний Центр</h1>
     <p>Сайт знаходиться в режимі попереднього перегляду</p>
     <form method="POST" action="/__preview_auth">
       <input type="password" name="password" placeholder="Пароль" autofocus required />

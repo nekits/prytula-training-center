@@ -38,7 +38,7 @@ export default function Hero() {
           <span className="block text-white">
             {t('line1')}
           </span>
-          <span className="block bg-gradient-to-r from-primary-300 via-primary-400 to-primary-500 bg-clip-text text-transparent">
+          <span className="block bg-gradient-to-r from-[#F7AB00] via-[#FFD166] to-[#F7AB00] bg-clip-text text-transparent">
             {t('line2')}
           </span>
         </motion.h1>

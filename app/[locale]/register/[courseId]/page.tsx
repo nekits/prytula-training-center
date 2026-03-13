@@ -58,7 +58,7 @@ export default function RegisterPage() {
           <a href={`/${locale}`} className="relative w-44 h-10">
             <Image
               src="/branding/logo/nc-logo-color.svg"
-              alt="Навчальний центр"
+              alt="Навчальний Центр"
               fill
               className="object-contain object-right"
             />

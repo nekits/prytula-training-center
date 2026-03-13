@@ -67,12 +67,12 @@ export default function Header() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <a href="#" className="group">
-              <div className="relative h-10 w-10 transition-transform group-hover:scale-105">
+              <div className="relative h-12 w-56 transition-transform group-hover:scale-105">
                 <Image
-                  src="/branding/logo/prytula-logo.svg"
-                  alt="Навчальний центр Фонду Притули"
+                  src="/branding/logo/nc-logo-color.svg"
+                  alt="Навчальний Центр Фонду Притули"
                   fill
-                  className="object-contain"
+                  className="object-contain object-left"
                   priority
                 />
               </div>
